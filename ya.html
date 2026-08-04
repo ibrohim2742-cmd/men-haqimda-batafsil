@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hisob yaratish</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:380px;
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(56,189,248,.4);
+}
+
+.container h2{
+    color:#fff;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#38bdf8;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0ea5e9;
+}
+
+.text{
+    text-align:center;
+    color:#cbd5e1;
+    margin-top:15px;
+}
+
+.text a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+.text a:hover{
+    text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Hisob yaratish</h2>
+
+    <form>
+        <input type="text" placeholder="Ism" required>
+        <input type="text" placeholder="Familiya" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Parol" required>
+        <input type="password" placeholder="Parolni tasdiqlang" required>
+
+        <button type="submit">Hisob yaratish</button>
+    </form>
+
+    <div class="text">
+        Hisobingiz bormi?
+        <a href="./kirish.html">Kirish</a>
+    </div>
+</div>
+
+</body>
+</html>
